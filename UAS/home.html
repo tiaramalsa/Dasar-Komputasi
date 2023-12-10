@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylehome.css" media="all">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="highlight">Welcome to 13log</h1>
+        </div>
+        <body>
+            <div class="tanggal">
+                <script type="text/javascript">
+                    var tanggallengkap = new String();
+                    var namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
+                    namahari = namahari.split(" ");
+                    var namabulan = ("Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember");
+                    namabulan = namabulan.split(" ");
+                    var tgl = new Date();
+                    var hari = tgl.getDay();
+                    var tanggal = tgl.getDate();
+                    var bulan = tgl.getMonth();
+                    var tahun = tgl.getFullYear();
+                    document.write(tanggallengkap = namahari[hari] + ", "+tanggal + " " + namabulan[bulan] + " " + tahun)
+                </script>
+            </div>
+            <div id="jam">
+                <script type="text/javascript">
+                    window.setTimeout("waktu()", 1000);
+                    function waktu(){
+                        var tanggal = new Date();
+                        setTimeout("waktu()", 1000);
+                        document.getElementById("jam").innerHTML = "Waktu Akses "+tanggal.getHours()+":"+tanggal.getMinutes()+":"+tanggal.getSeconds()+" WIB";
+                    }
+                </script>
+            </div>
+            <br><br>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="http://localhost/daskom/UAS/bukutamu.php">Buku Tamu</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="https://www.instagram.com/tiaramals/">Contact</a></li>
+
+                </ul>
+            </nav>
+            <article>
+                <h1>Hello</h1>
+                <p>I'm Tiara</p>
+                <p>An aries girl who loves music,</p>
+                <p>reading AU, and also watching movie.</p>
+                <button class="hire-down"><a href="cv-tiaramalsa.pdf">Hire me</a></button>
+                <button class="down-cv"><a href="cv-tiaramalsa.pdf">Download CV</a></button>
+            </article>
+            <div class="services">
+                <div class="services-text">
+                    <p>My 13log</p>
+                    <p>13log adalah suatu web blog yang dirancang dan dibuat pada bulan Januari tahun 2022. Nama dari web blog ini yaitu "13log", nama tersebut terdiri dari penyatuan angka 13 yang menyerupai huruf B dan kemudian ditambahkan huruf "l,o,g". Dibawah ini merupakan beberapa menu yang terdapat dalam "13log", terdapat menu "about", "buku tamu", "blog", dan "contact".</p>
+                </div>
+
+                <div class="box-container">
+                    <div class="box-1">
+                        <span>1</span>
+                        <p class="heading">About</p>
+                        <p class="details">Pada menu ini berisi tentang deskripsi singkat diri dari penulis<!-more ->...</p>
+                        <button><a href="about.html">Read More</a></button>
+                    </div>
+                    <div class="box-2">
+                        <span>2</span>
+                        <p class="heading">Buku Tamu</p>
+                        <p class="details">Pada menu buku tamu, pengunjung web blog akan diarahkan mengisi data<!-more->...</p>
+                        <button><a href="http://localhost/daskom/UAS/bukutamu.php">Read More</a></button>
+                    </div>
+                    <div class="box-3">
+                        <span>3</span>
+                        <p class="heading">Blog</p>
+                        <p class="details">Pada menu blog akan menampilkan beberapa blog yang ditulis oleh penulis<!-more->...</p>
+                        <button><a href="blog.html">Read More</a></button>
+                    </div>
+                    <div class="box-4">
+                        <span>4</span>
+                        <p class="heading">Contact</p>
+                        <p class="details">Pada menu contact akan menampilkan social media penulis berupa instagram<!-more->...</p>
+                        <button><a href="https://www.instagram.com/tiaramals/">Read More</a></button>
+                    </div>
+                </div>
+            </div>
+          </body>
+        <footer>
+            <p align="center"><b>Copyright&copy2022TiaraMalsa</b></p>
+            <br>
+            <p align="right"><a href="home.html">Ke Atas</a></p>
+        </footer>
+    </body>
+</html>

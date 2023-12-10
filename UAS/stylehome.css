@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #efe1af;
+}
+.header{
+    background-image: url(media/IMG-4155.JPG);
+    text-align: center;
+    padding: 25px;
+}
+.highlight{
+    display: inline-flex;
+    background-color: #fbf9e3;
+    color: #ada37d;
+    padding: 15px;
+    font-size: 55px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
+.tanggal,#jam{
+    float: right;
+    text-align: center;
+    color: #fbf9e3;
+    background-color: #ada37d;
+    font-size: 18px;   
+    width: 674.5px;
+    height: 50px;
+    padding: 14px 16px;
+    font-family: sans-serif;
+}
+nav{
+    max-width: 160px;
+    padding: 1em;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul a{
+    text-decoration: none;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #ada37d;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+nav ul a:hover{
+    background-color: #fbf9e3;
+    color: #ada37d;
+}
+article{
+    margin-left: 150px;
+    border-left: 3px solid #ada37d;
+    padding: 1em;
+    background-color: #efe1af;
+    color: #ada37d;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.hire-down,.down-cv{
+    border: none;
+    background-color: #fbf9e3;
+    color: #ada37d;
+    font-size: 15px;
+    text-align: center;
+    padding: 1em;
+    border-radius: 15px;
+}
+.hire-down a,.down-cv a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    color: #ada37d;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.hire-down a:hover,.down-cv a:hover{
+    background-color: #ada37d;
+    color: #fbf9e3;
+    padding: 5px;
+    border-radius: 15px;
+}
+.services{
+    height: 600px;
+    background-color: #efe1af;
+    padding: 2% 10% 0px 10%;
+}
+.services-text p:nth-child(1){
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ada37d;
+    font-size: 35px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.services-text p:nth-child(2){
+    font-family: sans-serif;
+    color: #ada37d;
+    font-size: 20px;
+    text-align: justify;
+}
+.services-text{
+    margin: 50px 0px;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+}
+.box-1,.box-2,.box-3,.box-4{
+    width: 300px;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ada37d;
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, 3);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 4px 25px;
+}
+.box-1 span,.box-2 span,.box-3 span,.box-4 span{
+    width: 30px;
+    height: 40px;
+    border-radius: 4%;
+    background-color: #ada37d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fbf9e3;
+}
+.box-1 p:nth-child(2),.box-2 p:nth-child(2),.box-3 p:nth-child(2),.box-4 p:nth-child(2){
+    color: #fbf9e3;
+    font-family: sans-serif;
+    font-size: 23px;
+    line-height: 0px;
+}
+.box-1 p:nth-child(3),.box-2 p:nth-child(3),.box-3 p:nth-child(3),.box-4 p:nth-child(3){
+    font-family: sans-serif;
+    color: #fbf9e3;
+    text-align: center;
+    width: 230px;
+    margin: 0px 0px 20px 0px;
+}
+.box-1 button,.box-2 button,.box-3 button,.box-4 button{
+    width: 100px;
+    height: 30px;
+    background-color: #fbf9e3;
+    border: none;
+    outline: none;
+    color: #ada37d;
+}
+.box-1 button a,.box-2 button a,.box-3 button a,.box-4 button a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #ada37d;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.box-1 button:hover,.box-2 button:hover,.box-3 button:hover,.box-4 button:hover{
+    background-color: #efe1af;
+    color: #ada37d;
+}
+footer{
+    color: #c8b985;
+    padding: 1em;
+    font-family: sans-serif;
+}
+footer a{
+    text-decoration: none;
+    text-align: right;
+    color: #fbf9e3;
+    background-color: #ada37d;
+    font-size: 18px;   
+    width: 100px;
+    height: 30px;
+    padding: 8px 10px;
+}
+footer a:hover{
+    background-color: #fbf9e3;
+    color: #ada37d;
+}
